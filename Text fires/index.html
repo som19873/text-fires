@@ -1,0 +1,2323 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&family=Kay+Pho+Du:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/slick.css">
+
+
+    <style>
+
+        body{
+            width: 100%;
+            float: left;
+            font-family: "Roboto", sans-serif;
+        }
+
+        .system{
+
+            width: 100%;
+            float: left;
+        }
+
+        *{
+
+            box-sizing: border-box;
+            margin: 0px;
+            padding: 0px;
+            
+        }
+
+        .container{
+
+            max-width: 1170px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin: auto;
+        }
+
+
+        .first{
+
+            width: 100%;
+            float: left;
+            position: relative;
+            height: 800px;
+        }
+
+            .first-banner {
+            width: 100%;
+            float: left;
+            background-image: url(image/slide-header.webp);
+            background-size: cover;
+            position: absolute;
+            top: 0;
+            left: 0;
+            height: 750px;
+            z-index: 1;
+        }
+
+            .mainfirst-banner {
+            width: 100%;
+            float: left;
+            background: #163a62d1;
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 11;
+            height: 750px;
+        }
+
+
+
+        .pehla{
+
+            width: 100%;
+            float: left;
+        }
+
+        .pehla-header {
+            width: 100%;
+            float: left;
+        
+            padding: 8px 20px;
+        }
+        .header-pic {
+            width: 50%;
+            float: left;
+            margin-top: 8px;
+        }
+
+        .header-pic img{
+
+
+        }
+
+        .header-text {
+            width: 50%;
+            float: right;
+            margin-top: 9px;
+        }
+
+        .header-text ul li {
+            display: inline-block;
+            padding: 14px 18px;
+            color: #b3bec8
+        }
+
+        .header-text ul li:hover{
+
+            color: #32eb9a;
+        }
+
+        .device{
+
+            width: 100%;
+            float: left;
+            
+
+        }
+
+        .device-banner{
+
+            width: 100%;
+            float: left;
+            animation-name: device;
+            animation-iteration-count: 1;
+            animation-duration: 4s;
+        }
+        
+
+        @keyframes device {
+
+            0%{
+
+                margin-top: -790px;
+            }
+
+            50%{
+
+                margin-top:0px ;
+            }
+
+            75%{
+
+                margin-top: -20px;
+            }
+
+            100%{
+
+                margin-top: 54px;
+            }
+        }
+
+        .device-text{
+
+            width: 50%;
+            float: left;
+        }
+
+        .maindevice-text{
+
+            width: 100%;
+            float: left;
+            margin-top: 50px;
+
+        }
+
+
+        .maindevice-text h2 {
+    font-size: 50px;
+    width: 59%;
+    color: white;
+    line-height: 56px;
+}
+
+        .maindevice-text p{
+
+            color: #b3bec8;
+            font-size: 14px;
+    margin-top: 14px;
+    line-height: 22px;
+
+
+        }
+
+        .device-button{
+
+            width: 100%;
+            float: left;
+            margin-top: 40px;
+        }
+
+        .device-button a{
+
+            text-decoration: none;
+            color: black;
+        }
+
+        .device-button button {
+            padding: 14px 30px;
+            background-color: #27e491;
+            color: #032549;
+            border-radius: 30px;
+            border: none;
+            font-size: 15px;
+        }
+
+        .device-button button:hover{
+
+            padding: 20px 35px;
+        }
+
+        .fa-angle-right {
+            width: 21px;
+            height: 21px;
+            border: 1px solid #032549;
+            text-align: center;
+            border-radius: 16px;
+            margin-left: 15px;
+            padding-top: 3px;
+            padding-left: 1px;
+        }
+
+
+
+        .device-pic{
+
+            width: 50%;
+            float: left;
+           
+        }
+
+        .maindevice-pic{
+
+            width: 100%;
+            float: left;
+            margin-top: 50px;
+           
+           
+        }
+
+        .maindevice-pic img{
+
+            animation-name: phone;
+            animation-duration: 2s;
+            animation-iteration-count: infinite;
+        }
+
+
+        @keyframes phone {
+                        0% {
+                margin: 0px;
+            }
+            25% {
+                margin-top: 40px;
+            }
+            50% {
+                margin-bottom: 40px;
+                margin-left: 15px;
+            }
+            75% {
+                margin-bottom: 40px;
+                margin-right: 12px;
+            }
+            100% {
+                margin: 0;
+            }
+        }
+
+        .all{
+
+            width: 100%;
+            float: left;
+            margin-top: 40px;
+        }
+
+        .all-banner{
+
+            width: 100%;
+            float: left;
+
+        }
+
+        .all-box{
+
+            width: 100%;
+            display: flex;
+            gap: 10px;
+        }
+
+        .main-box {
+    width: 25%;
+    float: left;
+    position: relative;
+    overflow: hidden;
+}
+
+.all-pic {
+    float: left;
+    margin-top: 20px;
+    background-image: url(image/shutterstock_674357041.webp);
+    background-size: cover;
+    width: 285px;
+    height: 417px;
+    border-radius: 20px;
+   
+}
+
+.all2-pic {
+    float: left;
+    margin-top: 20px;
+    background-image: url(image/shutterstock_677472166.webp);
+    background-size: cover;
+    width: 285px;
+    height: 417px;
+    border-radius: 20px;
+    
+}
+
+.all3-pic {
+    float: left;
+    margin-top: 20px;
+    background-image: url(image/shutterstock_405538558.webp);
+    background-size: cover;
+    width: 285px;
+    height: 417px;
+    border-radius: 20px;
+   
+}
+
+.all4-pic {
+    float: left;
+    margin-top: 20px;
+    background-image: url(image/shutterstock_619717289.webp);
+    background-size: cover;
+    width: 285px;
+    height: 417px;
+    border-radius: 20px;
+   
+}
+
+.all-pic:hover .all-text{
+ 
+    bottom: 0px;
+
+}
+
+.all2-pic:hover .all-text{
+ 
+ bottom: 0px;
+
+}
+
+.all3-pic:hover .all-text{
+ 
+ bottom: 0px;
+
+}
+
+.all4-pic:hover .all-text{
+ 
+ bottom: 0px;
+
+}
+.all-text {
+    width: 100%;
+    float: left;
+    text-align: center;
+    position: absolute;
+    bottom: -45px;
+    transition: 0.1s;
+}
+
+.all-text h2 {
+    color: white;
+    font-size: 28px;
+    line-height: 43px;
+    padding: 10px 22px;
+}
+
+.all-text p{
+
+    font-size: 16px;
+    color: #27e491;
+    margin-bottom: 15px;
+}
+
+.stree{
+
+    width: 100%;
+    float: left;
+    margin-top: 60px;
+}
+
+.stree-banner{
+
+    width: 100%;
+    float: left;
+}
+
+.stree-box{
+
+    display: flex;
+    width: 100%;
+    margin-top:  30px;
+
+
+}
+
+.stree-text{
+
+    width: 33%;
+    float: left;
+}
+
+.stree-text p {
+    color: #27e491;
+    font-size: 18px;
+}
+
+.stree-text h2 {
+    color: #083260;
+    font-size: 54px;
+    margin-top: 20px;
+    letter-spacing: -.016em;
+    font-family: "Kay Pho Du", serif;
+}
+
+.stree-pic{
+
+    width: 33%;
+    float: left;
+}
+
+.stree-mainpic {
+    width: 100%;
+    float: left;
+    position: relative;
+}
+
+
+.stree-picture {
+    position: relative;
+    z-index: 5;
+}
+
+.stree-picture img{
+
+    width: 100px;
+    height: 170px;
+}
+
+.stree-circle {
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(to top, #fcfcfc 20%, #1bdd88);
+    border-radius: 50%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.streepic-text{
+
+    width: 100%;
+    float:left;
+    margin-top: 30px;
+}
+
+.streepic-text h2{
+
+    font-size: 28px;
+}
+
+.streepic-text p {
+    font-size: 14px;
+    color: #92a4b8;
+    opacity: .66;
+    margin-top: 12px;
+    line-height: 23px;
+    width: 84%;
+}
+
+.offer {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    max-width: 90%;
+    color: black;
+}
+
+.offer a{
+
+    color: black;
+}
+
+
+.safe{
+
+    width: 100%;
+    float: left;
+
+    margin-top: 60px;
+}
+
+.safe-banner{
+
+    width: 100%;
+    float: left;
+}
+
+.safe-pic{
+
+    width: 40%;
+    float: left;
+}
+
+.mainsafe-pic{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.mainsafe-pic img{
+
+    border-radius: 18px;
+}
+
+.safe-text {
+    width: 60%;
+    float: left;
+    
+}
+
+.mainsafe-text{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    padding: 0px 70px;
+}
+
+.mainsafe-text p {
+    color: #27e491;
+    font-size: 20px;
+    margin-top: 14px;
+}
+.mainsafe-text h2{
+
+
+    margin-top: 28px;
+    font-size: 45px;
+    color: #083260;
+    letter-spacing: -.016em;
+    font-family: "Kay Pho Du", serif;
+}
+
+span.heel {
+    color: #032549a8;
+    font-size: 15px;
+}
+
+.safe-button{
+
+    width: 100%;
+    float: left;
+    margin-top: 34px;
+
+}
+.safe-button a{
+
+text-decoration: none;
+color: black;
+}
+
+
+.safe-button button {
+    padding: 14px 30px;
+    background-color: #27e491;
+    border-radius: 36px;
+    border: none;
+}
+
+.safe-button button:hover{
+
+padding: 20px 35px;
+}
+
+
+.drop{
+ 
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.drop-banner{
+
+    width: 100%;
+    float: left;
+
+}
+
+.drop-box{
+
+    width: 70%;
+
+   float: left;
+}
+
+
+    .maindrop-box {
+    width: 100%;
+    float: left;
+    box-shadow: 0px 0px 3px;
+    margin-left: 170px;
+    margin-top: 100px;
+    border-radius: 13px;
+
+}
+
+.drop-word{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.drop-word p {
+    text-align: center;
+    color: #083260;
+    font-size: 28px;
+   
+    line-height: 48px;
+}
+.drop-icon{
+
+    width: 100%;
+    float: left;
+    text-align: center;
+    color: #27e491;
+    font-size: 24px;
+    
+}
+
+
+.drop-icon ul li{
+
+    display: inline-block;
+}
+
+.fa-star{
+
+
+}
+
+.drop-text{
+
+    width: 100%;
+    float: left;
+}
+
+.drop-text h3 {
+    color: #083260;
+    text-align: center;
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.drop-text p {
+    text-align: center;
+    margin: 5px;
+    color: #596f87;
+    margin-bottom: 30px;
+}
+
+.slide{
+
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.slide-banner{
+
+    width: 100%;
+    float: left;
+}
+
+.slide-box{
+
+    width: 248px;
+    height: 200px;
+ 
+    margin: auto;
+
+}
+
+.slide-left{
+
+    width: 20%;
+    float: left;
+}
+
+.fa-angle-left {
+    width: 50px;
+    height: 50px;
+    background: #083260;
+    color: white;
+    border-radius: 50px;
+    padding: 14px 21px;
+}
+
+.slide-bindi{
+
+    width: 60%;
+    float: left;
+    text-align: center;
+    padding: 14px 0px;
+}
+
+.extra{
+
+    color: #083260 !important;
+}
+
+
+.fa-circle{
+
+    color: #e9ebed;
+    font-size: 12px;
+}
+
+.slide-bindi ul li{
+
+    display: inline-block;
+    padding: 0px 6px;
+}
+
+.slide-right{
+
+    width: 20%;
+    float: left;
+}
+
+.circle{
+    width: 50px !important;
+    height: 50px !important;
+    background: #083260;
+    color: white;
+    border-radius: 50px !important;
+    padding: 14px 21px !important;
+}
+
+.our{
+
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.our-banner {
+    width: 100%;
+    float: left;
+    position: relative;
+    margin-top: 200px;
+}
+
+.watch {
+    width: 25%;
+    float: left;
+    position: absolute;
+    top: -108px;
+    left: -270px;
+}
+
+.watch-image {
+    width: 100%;
+    float: left;
+    animation-name: watch;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    
+   
+}
+
+.watch-image:hover{
+
+    animation-name: watch;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+   
+}
+
+@keyframes watch  {
+
+    0%{
+
+       left: -270px;
+      top:  -108px;
+        
+    }
+
+    100%{
+
+       margin-left: 10px;
+       margin-top: -2px;
+    }
+
+    
+}
+
+
+.mainour-banner {
+    width: 100%;
+    float: left;
+    background-image: url(image/slide-header.webp);
+    background-size: cover;
+    display: flex;
+    height: 485px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 24px; 
+   
+}
+.our-box {
+    width: 260px;
+    height: 190px;
+    background-color: #1c426ce0;
+    border-radius: 18px;
+ 
+}
+
+.our-box:hover{
+
+    
+}
+
+
+
+
+.our-box p{
+
+    text-align: center;
+    margin-top: 20px;
+    color: white;
+}
+
+.our-icon{
+
+    width: 100%;
+    float: left;
+    text-align: center;
+}
+
+.fa-play:hover{
+
+     color: #27e491;
+     border: 4px solid #27e491;
+
+}
+
+.fa-play {
+   
+    margin-top: 20px;
+    width: 50px;
+    height: 50px;
+    border: 4px solid white;
+    border-radius: 30px;
+    color: white;
+    padding: 12px 0px;
+}
+
+.our-icon p{
+
+    color: white;
+}
+
+.latest{
+
+    width: 100%;
+    float: left;
+    margin-top: 130px;
+}
+
+.latest-banner{
+
+    width: 100%;
+    float: left;
+}
+
+.latest-text{
+
+    width: 100%;
+    float: left;
+    margin-bottom:  70px;
+}
+
+.latest-text p {
+    text-align: center;
+    font-size: 18px;
+    color: #27e491;
+}
+.latest-text h2 {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 54px;
+    color: #083260;
+    font-family: "Kay Pho Du", serif;
+}
+
+.latest-box {
+    width: 100%;
+   
+    display: flex;
+    gap: 8px;
+}
+
+.iphone{
+
+    width: 33%;
+    float: left;
+
+}
+
+.main-iphone {
+    width: 100%;
+    float: left;
+    background-image: url(image/shutterstock_777073321.webp);
+    height: 417px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main-iphonetwo {
+    width: 100%;
+    float: left;
+    background-image: url(image/Layer-1-485x392.png);
+    height: 417px;
+    background-repeat: no-repeat;
+    background-size:cover;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main-iphonethree {
+    width: 100%;
+    float: left;
+    background-image: url(image/shutterstock_674357041.webp);
+    height: 417px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.main-iphonethree:hover .iphone-text{
+
+bottom:0px ;
+    
+}
+
+.main-iphonetwo:hover .iphone-text{
+
+bottom:0px ;
+    
+}
+
+.main-iphone:hover .iphone-text{
+
+bottom:0px ;
+
+    
+}
+.iphone-text {
+    width: 100%;
+    float: left;
+    position: absolute;
+    bottom: -56px;
+    text-align: center;
+    transition: 1s;
+}
+
+
+.iphone-text p{
+
+    font-size: 15px;
+    color: #27e491;
+    margin-bottom: 20px;
+
+}
+
+.iphone-text h2 {
+    margin-bottom: 20px;
+    font-size: 32px;
+    line-height: 49px;
+    word-spacing: 2px;
+    color: white;
+}
+
+.iphone-text h6 {
+    color: #27e491;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.ask{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.ask-banner{
+
+    width: 100%;
+    float: left;
+}
+
+.ask-text{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    text-align: center;
+}
+
+.ask-text p{
+
+    color: #27e491;
+    font-size: 20px;
+    margin-top: 70px;
+
+}
+
+.ask-text h2{
+
+    font-size: 54px;
+    color: #083260;
+    font-family: "Kay Pho Du", serif;
+    margin-top: 20px;
+}
+
+.device-box{
+
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+    display: flex;
+    gap: 17px;
+}
+
+.device-text{
+
+    width: 50%;
+    float: left;
+
+}
+
+.device-maintext{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+}
+
+.device-maintextfirst{
+
+    width: 100%;
+    float: left;
+    margin-top: 50px;
+}
+
+.device-maintextfirst h3 {
+    color: #032549;
+    font-size: 20px;
+}
+.device-maintextfirst p {
+    color:#032549e8;
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+.device-maintexttwo{
+
+width: 100%;
+float: left;
+margin-top: 50px;
+}
+
+.device-maintexttwo h3{
+
+
+    color: #032549;
+    font-size: 20px;
+
+}
+
+.device-maintexttwo p{
+
+
+    color: #032549e8;
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 15px;
+}
+
+
+.device-maintextthree{
+
+width: 100%;
+float: left;
+margin-top: 50px;
+}
+
+.device-maintextthree h3{
+
+    color: #032549e8;
+    font-size: 20px;
+
+
+}
+
+.device-maintextthree p{
+
+    color: #032549;
+    margin-top: 20px;
+    line-height: 28px;
+    font-size: 15px;
+
+}
+
+
+.device-mainbutton {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    display: flex;
+    justify-content: end;
+}
+
+.device-mainbutton a{
+
+    text-decoration: none;
+    color: white;
+}
+
+.device-mainbutton button {
+    padding: 15px 28px;
+    color: #fff;
+    background: linear-gradient(to right, #083260, #022243);
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    transition: 0.7s;
+}
+.fa-angle-right{
+    width: 21px;
+    height: 21px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 16px;
+    margin-left: 15px;
+    padding-top: 3px;
+    padding-left: 1px;
+}
+
+
+.device-mainbuttontwo {
+    width: 100%;
+    float: left;
+    margin-top: 59px;
+    
+}
+
+.device-mainbuttontwo a{
+    
+    text-decoration: none;
+    color: black;
+}
+
+.device-mainbuttontwo button {
+    padding: 15px 28px;
+    color: #032549;
+    background: #27e491;
+    border-radius: 30px;
+    border: none;
+    font-size: 14px;
+    transition: 0.7s;
+}
+
+.fa-angle-right{
+    width: 21px;
+    height: 21px;
+    border: 1px solid white;
+    text-align: center;
+    border-radius: 16px;
+    margin-left: 15px;
+    padding-top: 3px;
+    padding-left: 1px;
+}
+
+.apple{
+
+    border: 1px solid black ;
+}
+
+.device-mainbutton button:hover{
+
+padding: 20px 40px;
+}
+
+.device-mainbuttontwo button:hover{
+
+padding: 20px 40px;
+}
+
+.last{
+
+    width: 100%;
+    float: left;
+    background-color: #072b52;
+    margin-top: 50px;
+   
+}
+
+.last-banner{
+
+    width: 100%;
+    float: left;
+
+}
+
+.last-bannertext{
+
+    width: 100%;
+    float: left;
+    border-bottom: 1px solid rgba(255, 255, 255, .1);
+}
+
+
+.last-text{
+
+    width: 50%;
+    float: left;
+}
+
+.last-maintext{
+
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+    margin-bottom: 50px;
+
+}
+
+.last-maintext h2 {
+    color: white;
+    font-size: 38px;
+}
+
+.last-maintext p {
+    font-size: 14px;
+    color: #b3bec8;
+    margin-top: 20px;
+    line-height: 26px;
+}
+
+
+.last-area{
+
+    width: 50%;
+    float: left;
+
+}
+
+.last-mainarea{
+
+    width: 100%;
+    float: left;
+    margin-top: 70px;
+  
+}
+
+.last-mainarea input {
+    color: #b3bec8;
+    background: #022243;
+    height: 77px;
+    width: 470px;
+    border: none;
+    border-radius: 50px;
+    padding: 0px 27px;
+    font-size: 15px;
+}
+
+.last-header{
+
+    width: 100%;
+    float: left;
+}
+
+.last-mainheader{
+
+    width: 100%;
+    float: left;
+    margin-top: 40px;
+}
+
+.last-headerbox{
+
+    width: 100%;
+    float: left;
+    margin-top: 20px;
+    display: flex;
+}
+
+.last-logo{
+
+    width: 25%;
+    float: left;
+
+}
+
+.last-mainlogo{
+
+    width: 100%;
+    float: left;
+
+}
+
+.last-mainlogo img{
+
+
+}
+
+.last-mainlogo p {
+    color: #b3bec8;
+    margin-top: 30px;
+    font-size: 15px;
+    line-height: 25px;
+    width: 113%;
+}
+
+.last-logoicon {
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    color: white;
+    font-size: 20px;
+}
+
+.last-logoicon ul li {
+    display: inline-block;
+    padding: 0px 4px;
+}
+
+.last-logoicon ul li:hover{
+
+    color: #32eb9a;
+}
+
+.last-line{
+
+    width: 25%;
+    float: left;
+}
+
+.last-mainline {
+    width: 100%;
+    float: left;
+    padding: 0px 60px;
+}
+
+.last-mainline h2 {
+    color: white;
+    margin-top: 20px;
+    font-size: 22px;
+}
+
+.last-option{
+
+    width: 100%;
+    float: left;
+    margin-top: 28px;
+}
+
+.last-option ul li {
+    color: #b3bec8;
+    list-style: none;
+    padding: 5px 0px;
+    font-size: 15px;
+}
+
+.last-option ul li a{
+
+    text-decoration: none;
+    color: #b3bec8;
+}
+
+.last-option ul li a:hover{
+
+    color: #27e491;
+}
+
+.last-msg{
+
+    width: 100%;
+    float: left;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+
+.last-msg p{
+
+    color: #b3bec8;
+    font-size: 14px;
+}
+
+.phone{
+
+    font-weight: bold;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+
+    </style>
+</head>
+<body>
+
+    <div class="first">
+
+        <div class="first-banner">
+
+            <div class="mainfirst-banner">
+
+                <div class="container">
+
+                
+                
+                        <div class="pehla">
+
+                            <div class="pehla-header">
+
+                                <div class="header-pic">
+
+                                    <img src="image/logo (1).png" alt="">
+                                </div>
+
+                                <div class="header-text">
+
+                                    <ul>
+                                        <li>Home</li>
+                                        <li>Services</li>
+                                        <li>Shop</li>
+                                        <li>Latest</li>
+                                        <li>Pages</li>
+                                        <li>Contact Us</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="device">
+
+                            <div class="device-banner">
+
+                                <div class="device-text">
+
+                                    <div class="maindevice-text">
+
+                                        <h2>Professional Device Repairs</h2>
+                                        
+
+                                        <p>Accidents happen, and it’s our job to fix them when it comes to damaging your mobile device. It’s never been easier to render your device useless after dropping it. Our trained technicians will diagnose and repair your device within 24 hours.</p>
+
+                                        <div class="device-button">
+
+                                            <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353"><button>Fix my Device <i class="fa fa-angle-right apple" aria-hidden="true"></i></a>
+                                            </button>
+                                        </div>
+
+                                    </div>
+
+
+                                
+                                </div>
+
+                                <div class="device-pic">
+
+                                    <div class="maindevice-pic">
+
+                                        <img src="image/iPhone-X.webp" alt="">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </div>
+    
+    <div class="all">
+
+        <div class="container">
+
+            <div class="all-banner">
+
+                <div class="all-box">
+
+                    <div class="main-box">
+
+                        <div class="all-pic">
+
+                            <div class="all-text">
+
+                                <h2><span>Water Damage</span>Repair</h2>
+
+                                <p>Read More</p>
+
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="main-box">
+
+                        <div class="all2-pic">
+
+                            <div class="all-text">
+
+                                <h2><span>Home Button</span>Repair</h2>
+                                <p>Read More</p>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="main-box">
+
+                        <div class="all3-pic">
+
+                            <div class="all-text">
+
+                                <h2><span>Speaker</span>Repair</h2>
+                                <p>Read More</p>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+
+                    <div class="main-box">
+                        <div class="all4-pic">
+
+                            <div class="all-text">
+
+                                <h2><span>Camera</span>Repair</h2>
+                                <p>Read More</p>
+                            </div>
+                            
+                        </div>
+
+                        
+                    </div>
+
+                    
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="stree">
+
+        <div class="container">
+
+            <div class="stree-banner">
+
+                <div class="stree-box">
+
+                    <div class="stree-text">
+
+                        <p>How We Can Help</p>
+
+                        <h2>We Make
+                        Mobile Repair
+                        Stress Free</h2>
+                    </div>
+
+                    <div class="stree-pic">
+
+                        <div class="stree-mainpic">
+                            <div class="stree-picture">
+                                <img src="image/Icon@3x.webp" alt="">
+                            </div>
+                            <div class="stree-circle">
+
+                            </div>
+                        </div>
+
+                        <div class="streepic-text">
+
+                            <h2>Water Ingress Damage</h2>
+                            <p>We can often repair water damage from inside the phone, only rare cases where we cannot fix this.</p>
+
+                            <div class="offer">
+
+                                <span>from
+                                $19  <sup>.00</sup> </span>
+
+                                <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">View more</a>
+
+
+                            </div>
+                        </div>
+
+                        
+
+
+                    </div>
+
+                    <div class="stree-pic">
+
+                        <div class="stree-mainpic">
+                            <div class="stree-picture">
+                                <img src="image/Icon@3x1.webp" alt="">
+                            </div>
+                            <div class="stree-circle">
+
+                            </div>
+                        </div>
+
+                        <div class="streepic-text">
+
+                            <h2>Poor Battery Life</h2>
+                            <p>As devices age, their batteries degrade. With a new battery you can enjoy many more hours of charge.</p>
+
+                            <div class="offer">
+
+                                <span>from
+                                     $25  <sup>.00</sup> </span>
+
+                                <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">View more</a>
+
+
+                            </div>
+                        </div>
+
+                        
+
+
+                    </div>
+
+                    
+                </div>
+
+                <div class="stree-box">
+
+                    
+                    <div class="stree-pic">
+
+                        <div class="stree-mainpic">
+                            <div class="stree-picture">
+                                <img src="image/Icon@3x4.webp" alt="">
+                            </div>
+                            <div class="stree-circle">
+
+                            </div>
+                        </div>
+
+                        <div class="streepic-text">
+
+                            <h2>Cracked Screens</h2>
+                            <p>Our most common repair! We only use genuine parts to avoid voiding your warranty.</p>
+
+                            <div class="offer">
+
+                                <span>from
+                               $59 <sup>.00</sup> </span>
+
+                                <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">View more</a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    
+
+                    <div class="stree-pic">
+
+                        <div class="stree-mainpic">
+                            <div class="stree-picture">
+                                <img src="image/Icon@3x2.webp" alt="">
+                            </div>
+                            <div class="stree-circle">
+
+                            </div>
+                        </div>
+
+                        <div class="streepic-text">
+
+                            <h2>Bent Chassis</h2>
+                            <p>Sat on your phone? We can straighten your current chassis or replace it with a factory original.</p>
+
+                            <div class="offer">
+
+                                <span>from
+                                $75 <sup>.00</sup> </span>
+
+                                <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">View more</a>
+
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stree-pic">
+
+                        <div class="stree-mainpic">
+                            <div class="stree-picture">
+                                <img src="image/Icon@3x3.webp" alt="">
+                            </div>
+                            <div class="stree-circle">
+
+                            </div>
+                        </div>
+
+                        <div class="streepic-text">
+
+                            <h2>Broken Speakers</h2>
+                            <p>Many things can cause broken speakers, but we can replace them easily so you can hear again.</p>
+
+                            <div class="offer">
+
+                                <span>from
+                                $39 <sup>.00</sup> </span>
+
+                                <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">View more</a>
+
+
+                            </div>
+                        </div>
+
+                        
+
+
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="safe">
+
+        <div class="container">
+
+            <div class="safe-banner">
+
+                <div class="safe-pic">
+
+                    <div class="mainsafe-pic">
+
+                        <img src="image/Layer-1-485x392.png" alt="">
+                    </div>
+                </div>
+
+                <div class="safe-text">
+
+                    <div class="mainsafe-text">
+
+                     <p>Professional Repair Technicians</p>
+
+                     <h2>Your Device in Safe Hands</h2>
+
+                     <p ><span class="heel">Here at TekhFixers we repair hundreds of devices a month, so rest assured you’re in safe hands sending your devices to us for repair.
+                        <br><br>TekhFixers are capable of repairing any electronic device on the market now and those manufactured in the last 10 years. We have all the right tools for the job so we can open up your device, repair it and assemble it all back together without ever knowing it had been touched.
+                     </span></p>
+
+                      <div class="safe-button">
+               
+                        <button>
+                        <a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Learn More <i class="fa fa-angle-right apple" aria-hidden="true"></i></a>
+                        </button>
+                      </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="drop">
+
+        <div class="container">
+            
+            <div class="drop-banner">
+
+                    <div class="drop-box">
+
+                        <div class="maindrop-box">
+
+                            <div class="drop-word">
+
+                                <p>TekhRepair did a fantastic job fixing my iPhone X after 
+                                    <br> I dropped it and smashed the front and back. 
+                                    <br>
+                                    You can’t tell it’s been replaced!
+                                </p>
+
+                            </div>
+
+                            <div class="drop-icon">
+
+                                <ul>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                    <li><i class="fa fa-star" aria-hidden="true"></i>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="drop-text">
+
+                                <h3>Harry Simpson</h3>
+                                <p>iPhone Screen Replacement</p>
+                            </div>
+
+                        </div>
+                    </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slide">
+
+        <div class="container">
+
+            <div class="slide-banner">
+
+                <div class="slide-box">
+
+                    <div class="slide-left">
+
+                        <i class="fa fa-angle-left" aria-hidden="true"></i>
+
+                    </div>
+
+                    <div class="slide-bindi">
+
+                        <ul>
+                            <li><i class="fa fa-circle extra" aria-hidden="true"></i>
+                            </li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>
+                            </li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>
+                               
+                            </li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>
+                            </li>
+                            <li><i class="fa fa-circle" aria-hidden="true"></i>
+                            </li>
+                           
+                           
+                        </ul>
+                    </div>
+
+                    <div class="slide-right">
+
+                        <i class="fa fa-angle-right circle" aria-hidden="true"></i>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="our">
+
+        <div class="container">
+
+            <div class="our-banner">
+
+                <div class="watch">
+
+                    <div class="watch-image">
+
+                        <img src="image/Group-25.webp" alt="">
+                    </div>
+                </div>
+
+
+                <div class="mainour-banner">
+
+                   
+
+                    <div class="our-box">
+
+                        <p>Watch our Explainer Video</p>
+
+                        <div class="our-icon">
+
+                          <i class="fa fa-play" aria-hidden="true"></i>
+
+                          <p>1:03</p>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="latest">
+
+        <div class="container">
+
+            <div class="latest-banner">
+
+                <div class="latest-text">
+
+                    <p>Keep up to date with us</p>
+
+                    <h2>Latest News</h2>
+
+                </div>
+
+                <div class="latest-box">
+
+                    <div class="iphone">
+
+                        <div class="main-iphone">
+
+                            <div class="iphone-text">
+
+                                <p>Product Reviews</p>
+
+                                <h2> Our Top 5 iPhone X Cases Reviewed</h2>
+
+                                <h6>Read Story</h6>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="iphone">
+
+                        <div class="main-iphonetwo">
+
+                            <div class="iphone-text">
+
+                                <p>Company News</p>
+
+                                <h2>  Why We Only Use Genuine Parts in our Repairs</h2>
+
+                                <h6>Read Story</h6>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <div class="iphone">
+
+                        <div class="main-iphonethree">
+
+                            <div class="iphone-text">
+
+                                <p>Tips & Tricks</p>
+
+                                <h2>  What to Do After Dropping Your Phone in Water</h2>
+
+                                <h6>Read Story</h6>
+
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="ask">
+
+        <div class="container">
+
+            <div class="ask-banner">
+
+                <div class="ask-text">
+
+                    <p>Don’t be afraid to ask!</p>
+
+                    <h2>Frequently Asked Questions</h2>
+                </div>
+
+                <div class="device-box">
+
+                    <div class="device-text">
+
+                        <div class="device-maintext">
+
+                            <div class="device-maintextfirst">
+
+                                <h3>My Device Doesn’t Switch On</h3>
+
+                                <p>An electronic device not switching on can be the result of many things. Most commonly there is a fault with the mainboard or the battery. We can diagnose a range of issues and replace only what's needed to be.</p>
+
+                            </div>
+
+                            <div class="device-maintexttwo">
+
+                                <h3>My Touchscreen Doesn’t Work</h3>
+
+                                <p>Many touchscreens won't work if the device has been a victim to a heavy fall or if the device has previously been 'repaired' and a genuine screen wasn't used in the replacement. All our replacement parts come with a 6 month warranty..</p>
+                                
+                            </div>
+
+                            <div class="device-maintextthree">
+
+                                <h3>Flushed My Phone Down the Toilet</h3>
+
+                                <p>That was a bit silly, wasn't it? Some believe putting the device in a bag of rice will solve all your problems. But this isn't true and sometimes the damage has already been done.</p>
+                                
+                            </div>
+
+                            <div class="device-mainbutton">
+
+                                <button><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">All FAQ <i class="fa fa-angle-right "  aria-hidden="true"></i></a>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+
+                    
+                    <div class="device-text">
+
+                        <div class="device-maintext">
+
+                            <div class="device-maintextfirst">
+
+                                <h3>What Happens if You Can’t Fix My Device?</h3>
+
+                                <p>If we can't fix your device we will get in touch with you to discuss your options. We can either offer you a replacement device for a cost, or we can return the device to you and refund your service charge.
+
+                                </p>
+
+                            </div>
+
+                            <div class="device-maintexttwo">
+
+                                <h3>Is The Postage Insured When You Send Back My Device?</h3>
+
+                                <p>Every device that leaves our store comes with a €1,000 minimum insurance cover, so rest assured you won't be out of pocket if the worst happens. We also recommend insuring the mail to the value of your phone when you send it in for repairs.</p>
+                                
+                            </div>
+
+                            <div class="device-maintextthree">
+
+                                <h3>Can I Deliver My Device in Person?</h3>
+
+                                <p>Unfortunately, due to health and safety laws we cannot allow members of the public on our premises so we can only accept mail deliveries of your devices.</p>
+                                
+                            </div>
+
+                            <div class="device-mainbuttontwo">
+
+                                <button><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Fix My Device <i class="fa fa-angle-right apple"  aria-hidden="true"></i></a>
+                                </button>
+                             </div>
+                        </div>
+                    </div>
+
+
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    
+    <div class="last">
+
+        <div class="container">
+
+            <div class="last-banner">
+                
+                <div class="last-bannertext">
+
+                
+                    <div class="last-text">
+
+                        <div class="last-maintext">
+
+                            <h2>Free Monthly Newsletter</h2>
+                            <p>Subscribe to our newsletter for all the latest news and cool tips and tricks to keep your
+                            mobile devices safe & secure. We promise we never spam, and you can unsubscribe easily. </p>
+
+
+                                
+                            
+                        </div>
+                    </div>
+
+                    <div class="last-area">
+
+                        <div class="last-mainarea">
+
+                        <input type="text" placeholder="Email Adress"> 
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="last-header">
+
+                    <div class="last-mainheader">
+
+                        <div class="last-headerbox">
+
+                            <div class="last-logo">
+
+                                <div class="last-mainlogo">
+
+                                    <img src="image/logo (1).png" alt="">
+
+                                    <p>Vivamus consectetur est elit, et scelerisque urna efficitur vitae. Cras maximus ultricies volutpat. Praesent ut enim non enim vulputate fringilla.</p>
+
+
+                                    <div class="last-logoicon">
+
+                                        <ul>
+                                            <li><i class="fa fa-facebook" aria-hidden="true"></i>
+                                            </li>
+                                            <li><i class="fa fa-twitter" aria-hidden="true"></i>
+                                            </li>
+                                            <li><i class="fa fa-google-plus" aria-hidden="true"></i>
+                                            </li>
+                                            <li><i class="fa fa-linkedin" aria-hidden="true"></i>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                            <div class="last-line">
+
+                                <div class="last-mainline">
+
+                                    <h2>Pages</h2>
+
+                                    <div class="last-option">
+
+                                        <ul>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">HOme</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Services</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Shop</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">FAQ</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Fix my Phone</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Contact</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="last-line">
+
+                                <div class="last-mainline">
+
+                                    <h2>Services</h2>
+
+                                    <div class="last-option">
+
+                                        <ul>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Mobile Repair</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Tablet Repair</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Laptop Repair</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Pc & Mac Repair</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Smartwatch Repair</a></li>
+                                            <li><a href="https://preview.themeforest.net/item/tekhfixers-mobile-device-repair-wordpress-theme/full_screen_preview/23115924?_ga=2.207771542.523754835.1726732930-1643840324.1702285353">Servicing & Maintenance</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="last-line">
+
+                                <div class="last-mainline">
+
+                                    <h2>Contact</h2>
+
+                                    <div class="last-option">
+
+                                        <ul>
+                                            <li><span class="phone">Phone:</span><a href="https://demo.cmssuperheroes.com/themeforest/wp-tekhfixers/tel:18881234567">+1 888 123 4567</a> </li>
+                                            <li><span class="phone">Email:</span></li>
+                                            <li><a href="hello@tekhfixers.com">hello@tekhfixers.com</a></li>
+                                            <li><a href="https://www.google.com/maps/search/TekhFixers,-513-Kings-Rd,-London,%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C-SW10-0TX/@51.4807174,-0.1867274,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D">Find Us: TekhFixers, 513</a></li>
+                                            <li>
+                                                <a href="https://www.google.com/maps/search/TekhFixers,-513-Kings-Rd,-London,%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C-SW10-0TX/@51.4807174,-0.1867274,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D">Kings Rd, London,‌‌‌‌‌‌‌‌ SW10</a></li>
+                                            <li><a href="https://www.google.com/maps/search/TekhFixers,-513-Kings-Rd,-London,%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C%E2%80%8C-SW10-0TX/@51.4807174,-0.1867274,17z/data=!3m1!4b1?entry=ttu&g_ep=EgoyMDI0MDkyMy4wIKXMDSoASAFQAw%3D%3D">0TX</a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="last-msg">
+
+                            <p>Copyright © 2024. TekhFixers by CMSSuperheroes. All Rights Reserved</p>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+<style>
+    .your-class{
+        width: 100%;
+        float: left;
+    }
+</style>
+
+    
+    
+    <script src="js/jquery-3.7.1.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script>
+        $(document).ready(function(){
+  $('.your-class').slick({
+
+      });
+  });
+    </script>
+
+</body>
+</html>
